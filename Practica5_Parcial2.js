@@ -47,9 +47,9 @@ class Pentagono extends Poligono{
     }
 }
 
-let miTriangulo = new Triangulo(5);
-let miCuadrado = new Cuadrado(3);
-let miPentagono = new Pentagono(3,3);
-console.log(`El área del cuadrado es: ${miCuadrado.area()} y su perímetro es: ${miCuadrado.perimetro()}`);
-console.log(`El área del triangulo es: ${miTriangulo.area()} y su perímetro es: ${miTriangulo.perimetro()}`);
-console.log(`El área del pentágono es: ${miPentagono.area()} y su perímetro es: ${miPentagono.perimetro()}`);
+let elTriangulo = new Triangulo(5);
+let elCuadrado = new Cuadrado(3);
+let elPentagono = new Pentagono(3,3);
+console.log(`El área del cuadrado es: ${miCuadrado.area()} y su perímetro es: ${elCuadrado.perimetro()}`);
+console.log(`El área del triangulo es: ${miTriangulo.area()} y su perímetro es: ${elTriangulo.perimetro()}`);
+console.log(`El área del pentágono es: ${miPentagono.area()} y su perímetro es: ${elPentagono.perimetro()}`);
