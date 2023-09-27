@@ -1,12 +1,13 @@
 class Poligono{
 
     constructor(nLados,medidaLado){
+        
         this.nLados = nLados;
         this.medidaLado = medidaLado;
     }
 
     perimetro(){
-        return this.medidaLado*this.nLados; 
+        return this.medidaLado * this.nLados; 
     }
 
     area(){
