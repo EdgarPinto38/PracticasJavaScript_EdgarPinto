@@ -1,7 +1,7 @@
 class Poligono{
 
     constructor(nLados,medidaLado){
-        this.numLados = nLados;
+        this.nLados = nLados;
         this.medidaLado = medidaLado;
     }
 
