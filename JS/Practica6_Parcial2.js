@@ -8,9 +8,9 @@ function Reloj(){
     let minutosTexto;
     let horasTexto;
 
-    let isPm = horas%12 >0;
+    let esTarde = horas%12 >0;
 
-    let meridiano = isPm ? "pm":"am";
+    let meridiano = esTarde ? "pm":"am";
 
     if(segundos<10){
          segundosTexto= `0${segundos}`;
