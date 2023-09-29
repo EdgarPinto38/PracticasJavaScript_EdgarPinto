@@ -10,7 +10,7 @@ function Reloj(){
 
     let esTarde = horas%12 >0;
 
-    let meridiano = esTarde ? "pm":"am";
+    let meridiano = esTarde ? "am":"pm";
 
     if(segundos<10){
          segundosTexto= `0${segundos}`;
