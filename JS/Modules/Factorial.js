@@ -1,6 +1,7 @@
 export function Factorial()
 {
-    let n=prompt
+    let 
+    n = prompt
     ('Ingrese un numero:','');
 
     parseInt(n, 10)
